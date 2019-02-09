@@ -8,8 +8,17 @@
 	 	carpeta actual.
 */
 #include <stdio.h>
-
 /*
+	Con la directiva define podemos definir constantes y macros
 */
+#define PI 3.14159
+#define CUBO(a) a*a*a
+int main(){
+	float suma;
+	suma = PI + 3.0;
+	float cubo = CUBO(suma);
+	printf("%f\n", suma);
+	printf("%f\n", cubo);
+	return 0;
 
-int
+}
